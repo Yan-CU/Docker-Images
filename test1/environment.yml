@@ -1,0 +1,21 @@
+name: pytorch-py3.9.7-0
+channels:
+  - pytorch
+dependencies:
+  - python=3.9.7
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - matplotlib
+  - scipy
+  - tensorboard
+  - numpy
+  - pip:
+    - attrs
+    - opencv-python
+    - yacs
+    - loguru
+    - einops
+    - timm==0.4.12
+    - imageio
